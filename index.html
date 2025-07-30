@@ -632,7 +632,7 @@ print(f"5 + 3 = {result}")
         stdin: stdin || ""
     };
 
-    const response = await fetch("https://piston-backend-v6go.onrender.com/run", {
+    const response = await fetch("https://piston.rs/api/v2/execute", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
